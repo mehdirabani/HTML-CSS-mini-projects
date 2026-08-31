@@ -1,1 +1,5 @@
 @import url(./reset.css);
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background: #f7f8fd;
+}
