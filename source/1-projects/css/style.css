@@ -61,3 +61,19 @@ body {
   width: 100%;
   border-radius: 100%;
 }
+.mobile-nav{
+
+}
+.mobile__menu{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
