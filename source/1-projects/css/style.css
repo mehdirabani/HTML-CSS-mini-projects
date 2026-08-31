@@ -32,10 +32,6 @@ body {
   align-items: center;
   gap: 3rem;
 }
-.menu__item {
-}
-.menu__item-link {
-}
 .right__nav {
   display: flex;
   align-items: center;
@@ -44,12 +40,6 @@ body {
 .group-icon {
   display: flex;
   gap: 1rem;
-}
-.search {
-}
-.bell {
-}
-.setting {
 }
 .user-section {
   display: flex;
