@@ -61,13 +61,12 @@ body {
   width: 100%;
   border-radius: 100%;
 }
-.mobile-nav{
-
+.mobile-nav {
 }
-.mobile-nav input{
+.mobile-nav input {
   display: none;
 }
-/* From Uiverse.io by talhabangyal */ 
+/* From Uiverse.io by talhabangyal */
 .hamburger {
   cursor: pointer;
 }
@@ -108,7 +107,7 @@ body {
   stroke-dashoffset: -32.42;
 }
 
-.mobile__menu{
+.mobile__menu {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -120,4 +119,9 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  transform: translatex(-550px);
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#mobile-menu:checked + .mobile__menu{
+  transform: translateX(0);
 }
